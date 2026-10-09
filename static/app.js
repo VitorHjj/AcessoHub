@@ -1,0 +1,1 @@
+function openRenew(id,name){const d=document.getElementById('renew-dialog');document.getElementById('renew-name').textContent='Usuário: '+name;document.getElementById('renew-form').action='/usuarios/'+encodeURIComponent(id)+'/renovar';d.showModal()}
